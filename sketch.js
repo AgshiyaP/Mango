@@ -36,6 +36,7 @@ function setup() {
   
 
   chain = new Chain(boy.body,{x:200 ,y:400})
+	chain.attach(stone.body);
 	
 	Engine.run(engine);
 
